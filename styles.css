@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+#bonanza{
+    width: 100%;
+}
+#nav-1{
+    background-color: #f6f6f6;
+    padding: 8.5px;
+    text-align: center;
+    width: 100%;
+    /* min-height: 39px; */
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.xx{
+    margin-right: 50px;
+    max-height: 18px;
+    max-width: 100px;
+}
+#nav-2{
+    background-color: #ed017f;
+    color: #4a4a4a;
+    height: 60px;
+    margin: 0 auto;
+    max-width: 1440px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    padding: 0 2vw;
+}
+.dd{
+    margin-right: 3vw;
+    height:35px;
+
+}
+.store-locator{
+    padding: 15px 16px;
+    height: 100%;
+    color: #fff;
+
+}
+.sell-on-konga{
+    padding: 15px 16px;
+    height: 100%;
+    color: #fff;
+
+}
+.input{
+    border: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    font-size: 12px;
+    height: 60%;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+}
+.help{
+    padding: 15px 16px;
+    height: 100%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.question{
+    margin-right: .3125rem;
+    color: #fff;
+}
+.login-signup{
+    padding: 15px 16px;
+    height: 100%;
+    color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.my-cart{
+    padding: 15px 20px;
+    /* width: 100%; */
+    background-color: #33b27b;
+    border-radius: 2px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text{
+    color:#fff;
+}
+.zero{
+    background-color: #fff;
+    border-radius: 2px;
+    color: #000;
+    font-weight: bolder;
+    margin-left: 8px;
+    padding: 3px 6px;
+}
+.q{
+    height: 60%;
+    background-color: #fba100;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    color: #fff;
+    font-weight: bolder;
+    /* outline: none; */
+    width: 90px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
