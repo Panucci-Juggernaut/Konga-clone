@@ -4,6 +4,9 @@
     padding: 0;
     font-size: 13px;
 }
+body{
+    background-color: #f6f6f6;
+}
 #bonanza{
     width: 100%;
 }
@@ -17,6 +20,8 @@
 }
 a{
     text-decoration: none;
+    color:#fff;
+
 }
 .xx{
     margin-right: 50px;
@@ -34,7 +39,7 @@ a{
     /* justify-content: center; */
     padding: 0 2vw;
 }
-.dd{
+#nav-2 img{
     margin-right: 3vw;
     height:35px;
 
@@ -116,5 +121,81 @@ a{
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+#nav-3{
+    margin: 0 auto;
+    max-width: 1440px;
+    /* position: relative; */
+    display: flex;
+    background-color: #94004f;
+}
+.ss{
+    padding: 12px 30px;
+    /* color: #fff; */
+}
+.all-categories{
+    /* padding-right: 0 30px 0 0; */
+}
+.c1{
+    background-color: #fff;
+    padding: 1px 30px;
+    color: #1c1d1f;
+}
+.ado{
+    font-size: 40px;
+}
+.home{
+    color: #000;
+    font-size: 12px;
+    padding: 10px 0;
+    font-weight: 400;
+}
+.home a{
+    color: #9a0052;
+    font-weight: 700;
+    display: inline-block;
+    padding: 0 5px;
+}
+.banner-2 img{
+    margin-top: 30px;
+    /* max-height: 280px; */
+    height: 266.828px;
+    width: 100%;
+    padding-left: 2vw;
+    padding-right: 2vw;
+}
+.flex-container{
+    margin-bottom: 3.125rem;
+    /* padding-left: .625rem;
+    padding-right: .625rem; */
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 2vw;
+    padding-right: 2vw;
+
+}
+.flex-item{
+    font-weight: 400;
+    margin: 15px auto;
+    /* height: 200px; */
+  width: 100%;
+    background-color: #fff;
+    
+
+}
+.flex-item img{
+    height: 200px;
+}
+.flex-item a{
+    color: #1c1d1f;
+
+}
+.flex-item h3{
+    border-bottom: .0625rem solid #f2f2f2;
+    font-size: .9375rem;
+    height: 2.8125rem;
+    padding-bottom: .5rem;
+    margin: .3125rem 0 .5rem;
 
 }
